@@ -1,18 +1,42 @@
-# Getting Started with Create React App
+React Quiz App
+This is a simple quiz app built with React. It contains 15 questions and you can win prizes for answering them correctly.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Getting Started
+Clone the repository or download the ZIP file.
 
-### `npm start`
+ Bash
+   git clone https://github.com/your-username/react-quiz-app.git
+ 
+Open your terminal and navigate to the project directory.
+   cd react-quiz-app
+ 
+Run npm install to install the necessary dependencies.
+   Npm Install or Npm i
+     
+Run npm start to start the development server.
+   Npm start
+   
+Open your web browser and navigate to http://localhost:3000/.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+How to Play
+
+The user must answer all 15 questions to win all the prizes.
+
+Each question has four possible answers, only one of which is correct.
+
+The user must select the correct answer to move on to the next question.
+
+If the user selects the correct answer, they will be awarded the prize for that question and forward to next question.
+
+If the user selects the wrong answer, they will not receive the prize for that question.
+
+Once the user has answered all 15 questions, they will be shown a summary of their performance.
 
 ### `npm test`
 
@@ -38,33 +62,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
