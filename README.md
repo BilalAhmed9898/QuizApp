@@ -1,11 +1,8 @@
 React Quiz App
 This is a simple quiz app built with React. It contains 15 questions and you can win prizes for answering them correctly.
 
-
-
 Getting Started
 Clone the repository or download the ZIP file.
-
  Bash
    git clone https://github.com/your-username/react-quiz-app.git
  
